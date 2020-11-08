@@ -514,6 +514,7 @@ RCT_EXPORT_METHOD(openCropper:(NSDictionary *)options
                                                                                   withHeight:[NSNumber numberWithFloat:videoTrack.naturalSize.height]
                                                                                     withMime:@"video/mp4"
                                                                                     withSize:filesize
+                                                                                    withDuration: nil
                                                                                     withData:nil
                                                                                     withRect:CGRectNull
                                                                             withCreationDate:forAsset.creationDate
